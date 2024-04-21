@@ -7,10 +7,10 @@ The [Aspose.Slides Addons](https://products.aspose.dev/slides) is a free, simple
 [Convert presentations](https://products.aspose.dev/slides/convert-api/) | [Merge presentations](https://products.aspose.dev/slides/merge-api/) | [Split presentation](https://products.aspose.dev/slides/split-api/) | [Convert presentation to a video](https://products.aspose.dev/slides/convert-to-video/) | [Protect presentation](https://products.aspose.dev/slides/protect/) | [Unprotect presentation](https://products.aspose.dev/slides/unprotect/) | [Add text watermarks to presentations](https://products.aspose.dev/slides/add-text-watermark/) | [Add image watermarks to presentations](https://products.aspose.dev/slides/add-image-watermark/) | [Replace text in presentations](https://products.aspose.dev/slides/replace-text/) | [Remove macros from presentation](https://products.aspose.dev/slides/remove-macros/) | [Remove annotations from presentation](https://products.aspose.dev/slides/remove-annotations/)
 
 ## How to Install
-The complete source code is available in this repository folder. Simply install the Aspose.Slides.Addons.Sdk project into your solution.
+The complete source code is available in this repository folder. Simply integrate provided files into your solution.
 
 ## How to Use
-You can find usage examples in the **aspose.slides.addons.sdk.usecases** module.
+You can find usage examples in the **aspose.slides.addons.sdk.usecases** package.
 
 The [Online low-code apps](https://products.aspose.dev/slides) for demonstrating API capabilities are available as well. 
 
