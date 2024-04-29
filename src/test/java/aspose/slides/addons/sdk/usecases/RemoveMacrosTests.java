@@ -18,7 +18,7 @@ public class RemoveMacrosTests {
     public void removeMacros() throws ApiException {
         File file = new File(testFile);
 
-        File response = api.removeAnnotations(file);
+        File response = api.removeMacros(file);
 
         assertNotNull(response);
         assertTrue(response.length()>0);
@@ -28,7 +28,7 @@ public class RemoveMacrosTests {
     public void removeMacrosWithHttpInfo() throws ApiException {
         File file = new File(testFile);
 
-        ApiResponse response = api.removeAnnotationsWithHttpInfo(file);
+        ApiResponse response = api.removeMacrosWithHttpInfo(file);
 
         assertTrue(response.getStatusCode() == 200);
         File f = new File(response.getData().toString());

@@ -22,7 +22,7 @@ public class ProtectTests {
 
         ProtectionOptions options = new ProtectionOptions();
         options.setViewPassword(password);
-        options.setViewPassword(password);
+        options.setEditPassword(password);
         options.setMarkAsFinal(true);
 
         File response = api.protect(file, options);
@@ -36,7 +36,7 @@ public class ProtectTests {
 
         ProtectionOptions options = new ProtectionOptions();
         options.setViewPassword(password);
-        options.setViewPassword(password);
+        options.setEditPassword(password);
         options.setMarkAsFinal(true);
 
         ApiResponse response = api.protectWithHttpInfo(file, options);
